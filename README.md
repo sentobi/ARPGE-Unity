@@ -39,11 +39,11 @@ The 7 Features of ARPGE Framework:
 - Stash
 
 4. Skills
-- Skill Binding
-- Skill Tree
-> Node (name, icon (image)
-> Unlock conditiosn (a generic Condition class that can be level, node connection?)
-> Parent node (reference to Node))
+- Bind skills to keys
+- Skill Tree:
+ - Node (name, icon (image)
+ - Unlock conditiosn (a generic Condition class that can be level, node connection?)
+ - Parent node (reference to Node))
 
 5. Player Stats
 - Basic stats (e.g. HP, MP, atk, atk spd)
@@ -52,9 +52,9 @@ The 7 Features of ARPGE Framework:
 
 6. Enemies
 - Standard enemies:
-> Skeletons
-> Zombies/undead
-> Some potentially rabid animal
+ - Skeletons
+ - Zombies/undead
+ - Some potentially rabid animal
 
 7. User Interface
 - Easy-to-create UI
